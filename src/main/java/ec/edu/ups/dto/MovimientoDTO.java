@@ -13,7 +13,7 @@ public class MovimientoDTO implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column(name = "numero", length = 10, unique = true, nullable = false)
+    @Column(name = "numero", length = 10, nullable = false)
     private long numero;
 
     @Column(name = "fecha", nullable = false)

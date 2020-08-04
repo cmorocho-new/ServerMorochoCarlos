@@ -82,15 +82,15 @@ public class InventarioON {
         movimientoDTO.setTipoMovimientoDTO(tipoMovimientoDTO);
         List<DetalleProductoDTO> detalles = new ArrayList<>();
         for (DetlleProductoTrasient d: detallesProductos) {
-            long stock = productoDAO.obtenerStockProducto(d.getIdProducto());
+            int stock = productoDAO.obtenerStockProducto(d.getIdProducto());
             DetalleProductoDTO detalle = new DetalleProductoDTO();
             detalle.setMovimientoDTO(movimientoDTO);
             detalle.setCantidad(d.getCantidad());
             detalle.setProductoDTO(new ProductoDTO(d.getIdProducto()));
             if (ingreso){
-                detalle.setSaldo(((int) stock) + d.getCantidad());
+                detalle.setSaldo(stock + d.getCantidad());
             }else{
-                detalle.setSaldo(((int) stock) - d.getCantidad());
+                detalle.setSaldo(stock - d.getCantidad());
             }
             detalles.add(detalle);
             // actualiza  stock producto

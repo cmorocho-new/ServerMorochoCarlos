@@ -38,7 +38,7 @@ public class ProductoDAO {
      * @throws Exception
      */
     public int obtenerStockProducto(long idProducto) throws Exception {
-        return em.createQuery("SELECT p.stock FROM ProductoDTO p WHERE p.id = :idProducto", int.class)
+        return em.createQuery("SELECT p.stock FROM ProductoDTO p WHERE p.id = :idProducto", Integer.class)
                 .setParameter("idProducto", idProducto)
                 .getSingleResult();
     }
