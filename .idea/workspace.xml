@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb6a3fc8-983f-4bbc-b2f3-a6449976e32d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/ups/dao/ProductoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/ups/dao/ProductoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/ups/dto/MovimientoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/ups/dto/MovimientoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/ups/gestor/InventarioON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/ups/gestor/InventarioON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServidorMorochoCarlos.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServidorMorochoCarlos.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServidorMorochoCarlos/WEB-INF/classes/ec/edu/ups/dao/ProductoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServidorMorochoCarlos/WEB-INF/classes/ec/edu/ups/dao/ProductoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServidorMorochoCarlos/WEB-INF/classes/ec/edu/ups/gestor/InventarioON.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServidorMorochoCarlos/WEB-INF/classes/ec/edu/ups/gestor/InventarioON.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/ups/dao/ProductoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/ups/dao/ProductoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/ups/gestor/InventarioON.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/ups/gestor/InventarioON.class" afterDir="false" />
-    </list>
+    <list default="true" id="bb6a3fc8-983f-4bbc-b2f3-a6449976e32d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +212,12 @@
         <serviceView id="ServidorWEBExamen">
           <option name="contentProportion" value="0.12982999" />
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="ServidorWEBExamen" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
           <option name="isSelected" value="true" />
@@ -234,7 +229,7 @@
                   <list>
                     <option value="Run Dashboard" />
                     <option value="JBossConfiguration" />
-                    <option value="JBossConfiguration/Running" />
+                    <option value="JBossConfiguration/Finished" />
                     <option value="JBossConfiguration/ServidorWEBExamen" />
                   </list>
                 </option>
@@ -256,7 +251,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596498148108</updated>
-      <workItem from="1596498152127" duration="15813000" />
+      <workItem from="1596498152127" duration="16246000" />
     </task>
     <servers />
   </component>
@@ -300,38 +295,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596504725337" />
-    <state width="1125" height="258" key="GridCell.Tab.0.bottom" timestamp="1596512785071">
+    <state width="1125" height="243" key="GridCell.Tab.0.bottom" timestamp="1596514769011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="258" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596512785071" />
-    <state width="1125" height="258" key="GridCell.Tab.0.center" timestamp="1596512785071">
+    <state width="1125" height="243" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596514769011" />
+    <state width="1125" height="243" key="GridCell.Tab.0.center" timestamp="1596514769010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="258" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596512785071" />
-    <state width="1125" height="258" key="GridCell.Tab.0.left" timestamp="1596512785070">
+    <state width="1125" height="243" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596514769010" />
+    <state width="1125" height="243" key="GridCell.Tab.0.left" timestamp="1596514769010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="258" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596512785070" />
-    <state width="1125" height="258" key="GridCell.Tab.0.right" timestamp="1596512785071">
+    <state width="1125" height="243" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596514769010" />
+    <state width="1125" height="243" key="GridCell.Tab.0.right" timestamp="1596514769011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="258" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596512785071" />
-    <state width="1125" height="258" key="GridCell.Tab.1.bottom" timestamp="1596512778428">
+    <state width="1125" height="243" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596514769011" />
+    <state width="1125" height="243" key="GridCell.Tab.1.bottom" timestamp="1596514769012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="258" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596512778428" />
-    <state width="1125" height="258" key="GridCell.Tab.1.center" timestamp="1596512778428">
+    <state width="1125" height="243" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596514769012" />
+    <state width="1125" height="243" key="GridCell.Tab.1.center" timestamp="1596514769012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="258" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596512778428" />
-    <state width="1125" height="258" key="GridCell.Tab.1.left" timestamp="1596512778427">
+    <state width="1125" height="243" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596514769012" />
+    <state width="1125" height="243" key="GridCell.Tab.1.left" timestamp="1596514769012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="258" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596512778427" />
-    <state width="1125" height="258" key="GridCell.Tab.1.right" timestamp="1596512778428">
+    <state width="1125" height="243" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596514769012" />
+    <state width="1125" height="243" key="GridCell.Tab.1.right" timestamp="1596514769012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1125" height="258" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596512778428" />
+    <state width="1125" height="243" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596514769012" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1596504956803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
