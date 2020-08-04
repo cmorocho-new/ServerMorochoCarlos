@@ -21,6 +21,10 @@ public class DetalleProductoDTO implements Serializable {
     @JoinColumn(name = "producto_id", referencedColumnName = "id", nullable = false)
     private ProductoDTO productoDTO;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "movimiento_id", referencedColumnName = "id", nullable = false)
+    private MovimientoDTO movimientoDTO;
+
     public long getId() {
         return id;
     }
@@ -51,5 +55,13 @@ public class DetalleProductoDTO implements Serializable {
 
     public void setProductoDTO(ProductoDTO productoDTO) {
         this.productoDTO = productoDTO;
+    }
+
+    public MovimientoDTO getMovimientoDTO() {
+        return movimientoDTO;
+    }
+
+    public void setMovimientoDTO(MovimientoDTO movimientoDTO) {
+        this.movimientoDTO = movimientoDTO;
     }
 }

@@ -20,6 +20,11 @@ public class TipoMovimientoDTO implements Serializable {
     @Column(name = "numero", length = 10, nullable = false)
     private long numeroSiguiente;
 
+    public TipoMovimientoDTO(long id, long numeroSiguiente) {
+        this.id = id;
+        this.numeroSiguiente = numeroSiguiente;
+    }
+
     public long getId() {
         return id;
     }

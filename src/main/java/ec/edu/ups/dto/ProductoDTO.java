@@ -20,6 +20,14 @@ public class ProductoDTO implements Serializable {
     @Column(name = "stock", length = 10)
     private int stock;
 
+    public ProductoDTO(){
+
+    }
+
+    public ProductoDTO(long id){
+        this.id = id;
+    }
+
     public long getId() {
         return id;
     }
